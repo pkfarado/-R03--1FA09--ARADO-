@@ -1,23 +1,11 @@
 # -R03--1FA05--ARADO-
-This code calculates the distance between two points in a cartesian plane by taking the coordinates of one point and the other then subtracting and multiplying them then taking the square root to give you the final answer on the distance between them.
+This script calculates the straight-line distance between two points on a 2D coordinate plane using the Pythagorean theorem.
 
-To run this script, you only need to have **Python 3.x** installed on your computer. No external libraries are required.
+The program prompts the user to enter the X and Y values for two separate points. Once these coordinates are provided, it calculates the horizontal distance and vertical distance between them. It then applies the Euclidean distance formula to find the direct length between the two points.
 
- How to Install and Run
+To run this script, you only need to have Python 3.x installed on your computer. No external libraries are required.
 
-When you run the script, it will interactively ask you for inputs like this:
-
-text
-Type in the coordinates for the first coordinate, put X coordinate first then Y coordinate accordingly
-Give a number for x1: 1
-Give a number for y1: 2
-Type in the coordinates for the second coordinate, put X coordinate first then Y coordinate accordingly
-Give a number for x2: 4
-Give a number for y2: 6
-The distance of the two points is 5.0
+When you run the script, the following actions occur:The terminal displays a message asking for the first set of coordinates.The program pauses to accept decimal or integer inputs for x1 and y1.The terminal displays a message asking for the second set of coordinates.The program pauses to accept decimal or integer inputs for x2 and y2.The system performs the calculation instantly and prints the final distance value to the screen.
 
 
- How it Works
-
-The script calculates the distance between point 1 (x₁, y₁) and point 2 (x₂, y₂) using the standard distance formula.
-
+The script imports the Python math module to access the math.hypot function. This function uses the Pythagorean theorem formula:distance = square root of ((x2 - x1)^2 + (y2 - y1)^2)It subtracts the first X coordinate from the second X coordinate to find the horizontal change, and subtracts the first Y coordinate from the second Y coordinate to find the vertical change. The function squares both differences, adds them together, and calculates the square root of the total to output the final result.
