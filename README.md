@@ -1,4 +1,4 @@
-# -R03--1FA05--ARADO-
+# -R03--1FA09--ARADO-
 This script calculates the straight-line distance between two points on a 2D coordinate plane using the Pythagorean theorem.
 
 The program prompts the user to enter the X and Y values for two separate points. Once these coordinates are provided, it calculates the horizontal distance and vertical distance between them. It then applies the Euclidean distance formula to find the direct length between the two points.
